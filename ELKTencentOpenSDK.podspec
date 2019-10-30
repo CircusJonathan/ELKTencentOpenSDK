@@ -9,14 +9,14 @@ Pod::Spec.new do |spec|
                     Tencent Open Api SDK of iOS, include QQ share and login
                    DESC
 
-  spec.homepage     = "https://github.com/CircusJonathan/ELKTencentOpenSDK"
+  spec.homepage     = "https://github.com/elkshrek/ELKTencentOpenSDK"
 
   spec.license      = "MIT"
   spec.author       = { "Jonathan" => "Jonathan_dk@163.com" }
 
   spec.platform     = :ios, "7.0"
 
-  spec.source       = { :git => "https://github.com/CircusJonathan/ELKTencentOpenSDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/elkshrek/ELKTencentOpenSDK.git", :tag => "#{spec.version}" }
 
 #  spec.source_files   = "TencentOpenSDK/TencentOpenAPI.framework/Headers/**/*.h"
   spec.ios.vendored_frameworks = "TencentOpenSDK/*.framework"
