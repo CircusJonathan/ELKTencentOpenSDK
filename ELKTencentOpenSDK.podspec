@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ELKTencentOpenSDK"
-  spec.version      = "3.3.7.1"
+  spec.version      = "3.3.8"
   spec.summary      = "Tencent Open Api SDK of iOS."
 
   spec.description  = <<-DESC
