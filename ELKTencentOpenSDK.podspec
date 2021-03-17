@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ELKTencentOpenSDK"
-  spec.version      = "3.3.9"
+  spec.version      = "3.5.1"
   spec.summary      = "Tencent Open Api SDK of iOS."
 
   spec.description  = <<-DESC
@@ -19,6 +19,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/elkshrek/ELKTencentOpenSDK.git", :tag => "#{spec.version}" }
 
   spec.ios.vendored_frameworks = "TencentOpenSDK/*.framework"
+  spec.ios.resources           = "TencentOpenSDK/*.bundle"
 
   spec.frameworks = "Security", "SystemConfiguration", "CoreGraphics", "CoreTelephony", "WebKit"
   spec.libraries   = "iconv", "z", "c++", "sqlite3"
