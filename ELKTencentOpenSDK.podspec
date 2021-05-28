@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = { "Jonathan" => "Jonathan_dk@163.com" }
 
-  spec.platform     = :ios, "7.0"
+  spec.platform     = :ios, "9.0"
 
   spec.source       = { :git => "https://github.com/elkshrek/ELKTencentOpenSDK.git", :tag => "#{spec.version}" }
 
